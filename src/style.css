@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.normal-button-white {
+  @apply flex justify-center items-center w-36 h-12 rounded-md text-white font-bold hover:cursor-pointer hover:shadow-lg transition-transform hover:-translate-y-0.5;
+}
+.normal-button-black {
+  @apply flex justify-center items-center w-36 h-12 rounded-md text-black font-bold hover:cursor-pointer hover:shadow-lg transition-transform hover:-translate-y-0.5;
+}
+
+.pop-button-white {
+  @apply flex justify-center items-center w-36 h-12 rounded-3xl text-white font-bold hover:cursor-pointer hover:shadow-lg transition-transform hover:-translate-y-0.5;
+}
+
+.pop-button-black {
+  @apply flex justify-center items-center w-36 h-12 rounded-3xl text-black font-bold hover:cursor-pointer hover:shadow-lg transition-transform hover:-translate-y-0.5;
+}
+
+.skew-button-white {
+  @apply flex justify-center items-center w-36 h-12 text-white font-bold hover:cursor-pointer transition-transform -skew-x-12 hover:skew-x-0;
+}
+.skew-button-black {
+  @apply flex justify-center items-center w-36 h-12 text-black font-bold hover:cursor-pointer transition-transform -skew-x-12 hover:skew-x-0;
+}
