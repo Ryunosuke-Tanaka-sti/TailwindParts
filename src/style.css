@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Kosugi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -22,4 +25,15 @@
 }
 .skew-button-black {
   @apply flex justify-center items-center w-36 h-12 text-black font-bold hover:cursor-pointer transition-transform -skew-x-12 hover:skew-x-0;
+}
+
+.normal-input {
+  @apply w-48 p-2 rounded-md border-2 border-gray-600 outline-none;
+}
+
+.normal-checkbox {
+  @apply p-1 rounded-lg border-2 border-black relative before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-lg before:bg-white before:opacity-100 before:transition-opacity peer-checked:before:opacity-0;
+}
+.tips-checkbox {
+  @apply flex justify-center items-center h-4 w-10 px-10 py-4 rounded-xl font-bold border-2 hover:cursor-pointer transition-opacity opacity-30 peer-checked:opacity-100;
 }

@@ -21,6 +21,6 @@ npx tailwindcss init
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "npx tailwindcss -i ./src/style.css -o ./public/style.css --watch",
     "build": "npx tailwindcss -i ./src/style.css -o ./public/style.css",
-    "browser-sync": "browser-sync start --server --files='./public/*.html'"
+    "browser-sync": "browser-sync start --config=bs-config.js
   }
 ```
