@@ -1,60 +1,38 @@
 <!DOCTYPE html>
 <html lang="ja">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body class="flex justify-center items-center px-3">
-    <main class="flex flex-col justify-center items-center w-full max-w-4xl my-10 gap-10">
-        <div class="normal-button-white  bg-blue-600/60 border-2 border-blue-600/40">
-            Send
-        </div>
+  <body class="flex items-center justify-center px-3">
+    <main class="my-10 flex w-full max-w-4xl flex-col items-center justify-center gap-10">
+      <div class="normal-button-white border-2 border-blue-600/40 bg-blue-600/60">Send</div>
 
-        <div class="normal-button-black border-4 border-dashed border-black">
-            Send
-        </div>
+      <div class="normal-button-black border-4 border-dashed border-black">Send</div>
 
-        <div class="normal-button-black border-4 border-double border-black">
-            Send
-        </div>
+      <div class="normal-button-black border-4 border-double border-black">Send</div>
 
-        <div class="pop-button-white bg-blue-600/60 border-2 border-blue-600/40">
-            Send
-        </div>
+      <div class="pop-button-white border-2 border-blue-600/40 bg-blue-600/60">Send</div>
 
-        <div
-            class="flex justify-center items-center w-12 h-12 rounded-full border-2 border-gray-700/80 transition-transform hover:-translate-y-0.5 hover:cursor-pointer delay-75 group">
-            <img src="svg/topArrow.svg" class="w-1/2 h-1/2 transition-transform  group-hover:-translate-y-1" alt="">
-        </div>
+      <div class="group flex h-12 w-12 items-center justify-center rounded-full border-2 border-gray-700/80 transition-transform delay-75 hover:-translate-y-0.5 hover:cursor-pointer">
+        <img src="svg/topArrow.svg" class="h-1/2 w-1/2 transition-transform group-hover:-translate-y-1" alt="" />
+      </div>
 
-        <div class="skew-button-white hover:skew-x-0 bg-gradient-to-t from-[#0250c5] to-[#d43f8d] border-2">
-            Send
-        </div>
+      <div class="skew-button-white border-2 bg-gradient-to-t from-[#0250c5] to-[#d43f8d] hover:skew-x-0">Send</div>
 
-        <div
-            class="flex justify-center items-center w-48 h-12 text-white font-bold hover:cursor-pointer bg-black relative overflow-hidden group transition-colors delay-100 hover:text-black">
-            <span class="z-10">PUSH!</span>
-            <div
-                class="z-0 absolute top-0 left-0 w-96 h-96 transition-transform origin-top-left rotate-45 group-hover:-translate-y-1/2 gruop-hover:translate-x-1/2 bg-red-600">
-            </div>
-        </div>
+      <div class="group relative flex h-12 w-48 items-center justify-center overflow-hidden bg-black font-bold text-white transition-colors delay-100 hover:cursor-pointer hover:text-black">
+        <span class="z-10">PUSH!</span>
+        <div class="gruop-hover:translate-x-1/2 absolute top-0 left-0 z-0 h-96 w-96 origin-top-left rotate-45 bg-red-600 transition-transform group-hover:-translate-y-1/2"></div>
+      </div>
 
-
-        <div
-            class="flex justify-center items-center w-48 h-12 text-white font-bold hover:cursor-pointer bg-black relative overflow-hidden group transition-colors delay-100 hover:text-black">
-            <span class="z-10">PUSH!</span>
-            <div
-                class="z-0 absolute top-0 -left-44 w-full h-full transition-transform bg-red-500 group-hover:translate-x-44 duration-200">
-            </div>
-        </div>
-
-
+      <div class="group relative flex h-12 w-48 items-center justify-center overflow-hidden bg-black font-bold text-white transition-colors delay-100 hover:cursor-pointer hover:text-black">
+        <span class="z-10">PUSH!</span>
+        <div class="absolute top-0 -left-44 z-0 h-full w-full bg-red-500 transition-transform duration-200 group-hover:translate-x-44"></div>
+      </div>
     </main>
-</body>
-
+  </body>
 </html>

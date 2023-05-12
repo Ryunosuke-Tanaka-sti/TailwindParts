@@ -6,12 +6,19 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "npx tailwindcss -i ./src/style.css -o ./public/style.css --watch",
     "build": "npx tailwindcss -i ./src/style.css -o ./public/style.css",
-    "browser-sync": "browser-sync start --server --config=bs-config.js"
+    "browser-sync": "browser-sync start --server --config=bs-config.js",
+    "lint": "eslint --fix public",
+    "format": "prettier --write public"
   },
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^10.4.8",
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-tailwindcss": "^3.8.2",
     "postcss": "^8.4.16",
+    "prettier": "^2.8.3",
     "tailwindcss": "^3.1.8"
   },
   "dependencies": {

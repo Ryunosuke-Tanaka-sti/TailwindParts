@@ -1,35 +1,27 @@
 <!DOCTYPE html>
 <html lang="ja">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body class="flex justify-center items-center px-3">
-    <main class="flex flex-col justify-center items-center w-full max-w-4xl my-10 gap-10">
-        <label
-            class="flex flex-row items-center py-2 gap-2 border-t-2 border-b-2 border-gray-600 hover:cursor-pointer group">
-            <input type="checkbox" class="peer hidden" />
-            <div class="h-10 w-10 normal-checkbox">
-                <img src="svg/checkbox.svg" class="" alt="" />
-            </div>
-            <div class="flex justify-start items-center h-10 w-48 p-1">
-                point
-            </div>
-        </label>
+  <body class="flex items-center justify-center px-3">
+    <main class="my-10 flex w-full max-w-4xl flex-col items-center justify-center gap-10">
+      <label class="group flex flex-row items-center gap-2 border-y-2 border-gray-600 py-2 hover:cursor-pointer">
+        <input type="checkbox" class="peer hidden" />
+        <div class="normal-checkbox h-10 w-10">
+          <img src="svg/checkbox.svg" class="" alt="" />
+        </div>
+        <div class="flex h-10 w-48 items-center justify-start p-1">point</div>
+      </label>
 
-        <label>
-            <input type="checkbox" class="peer hidden" />
-            <div class="tips-checkbox border-green-500 bg-green-400 text-white">
-                tag
-            </div>
-        </label>
-
+      <label>
+        <input type="checkbox" class="peer hidden" />
+        <div class="tips-checkbox border-green-500 bg-green-400 text-white">tag</div>
+      </label>
     </main>
-</body>
-
+  </body>
 </html>
